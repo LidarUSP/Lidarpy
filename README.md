@@ -22,8 +22,8 @@ Founded by:
   * Plots the data availability 
 
 - TimeSeries
-  *high = Make time serie plot of the upper part
-  *low = Make time serie plot of the lower part
+  * high = Make time serie plot of the upper part
+  * low = Make time serie plot of the lower part
 
 ## Graphics Example
 ### Time Series plot
