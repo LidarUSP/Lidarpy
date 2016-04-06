@@ -2,8 +2,8 @@
 Repository which contains python programms to analyse lidar data
 
 Founded by:
-* [Marcia Marques](https://github.com/orgs/LidarUSP/people/MarciaMarques) (IPEN/USP)
-and 
+* [Marcia Marques](https://github.com/orgs/LidarUSP/people/MarciaMarques) (IPEN/USP) - main contributor
+ 
 * [Thomas Martin](https://github.com/TomCMM) (IAG/USP)
 
 ## File/folder description
