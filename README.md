@@ -1,5 +1,10 @@
 #Lidarpy
-Repository which contains code to analyse lidar data
+Repository which contains python programms to analyse lidar data
+
+Founded by:
+* [Marcia Marques](https://github.com/orgs/LidarUSP/people/MarciaMarques) (IPEN/USP)
+and 
+* [Thomas Martin](https://github.com/TomCMM) (IAG/USP)
 
 ## File/folder description
 *Data
@@ -22,6 +27,11 @@ note: to obtain all the data, put "Avail = 0"
   *high = Make time serie plot of the upper part
   *low = Make time serie plot of the lower part
 
-## Graphics
+## Graphics Example
 ### Time Series plot
 ![alt text](https://github.com/LidarUSP/Lidarpy/blob/master/plot/TimeSeries-high.png "Time Serie plot")
+
+### Data Availability 
+![alt text](https://github.com/LidarUSP/Lidarpy/blob/master/plot/Avail_WLS70.png "Availability plot")
+
+
