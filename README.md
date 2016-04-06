@@ -10,6 +10,6 @@ Repository which contains code to analyse lidar data
 
 2. TimestampXXXXX.py
   * Control the timestamp, the data availability and split the file
-  a. Create a complete timeserie and fill the missing data with nan (?)
-  b. a + select date with a certain amount of data availability
-  c. a + b + allow to write one variable by file
+  1. a = Create a complete timeserie and fill the missing data with nan (?)
+  2. b = a + select date with a certain amount of data availability
+  3. c = a + b + allow to write one variable by file
