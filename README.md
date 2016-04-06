@@ -7,20 +7,19 @@ Founded by:
 
 ## File/folder description
 - Data
-   Contain data of the Lidar for the summer 2015
+   Contains data of the lidar for the summer 2014/2015
 
 - 1.LIDAR_WLS70.py
   * Take all the ".sta" output of the lidar and merge them into one unique file
 
 - 2.TimestampXXXXX.py
-  * Control the timestamp, the data availability and split the file
-note: to obtain all the data, put "Avail = 0"
-  1. a = Create a complete timeserie and fill the missing data with nan (?)
+  * Corrects the timestamp, filters the data by the availability and rewrite the file
+  1. a = Create a complete timeseries, filling the missing data with 'nan'
   2. b = a + select date with a certain amount of data availability
   3. c = a + b + allow to write one variable by file
 
 - Avail_WLS70.py
-  * Plot the available data 
+  * Plots the data availability 
 
 - TimeSeries
   *high = Make time serie plot of the upper part
@@ -32,5 +31,3 @@ note: to obtain all the data, put "Avail = 0"
 
 ### Data Availability 
 ![alt text](https://github.com/LidarUSP/Lidarpy/blob/master/plot/Avail_WLS70.png "Availability plot")
-
-
