@@ -6,9 +6,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-inpath="/home/thomas/PhD/obs-lcb/lidar/obs/data/"
-
-
 
 def read_var(inpath,filename):
     """
@@ -21,6 +18,8 @@ def read_var(inpath,filename):
     return data
 
 if __name__ == "__main__":
+    inpath="/home/thomas/PhD/obs-lcb/lidar/obs/data/"
+
     u = read_var(inpath, 'um.csv')
     w = read_var(inpath, 'wm.csv')
     cnr = read_var(inpath, 'CNRm.csv')
@@ -29,10 +28,8 @@ if __name__ == "__main__":
     w_daily = w.groupby(lambda t: (t.hour)).mean() # vertical wind
     cnr_daily = cnr.groupby(lambda t: (t.hour)).mean() # signal noise ratio
 
-
     plt.close('all')
     plt.figure()
-
 
     levels = np.linspace(cnr_daily.min().min(), cnr_daily.max().max(),100)
 
